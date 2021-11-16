@@ -1,0 +1,72 @@
+body {
+  margin: 10px;
+  padding: 20px;
+  --bs-body-bg: rgba(245, 246, 247, 0.973);
+  font-family: NotoSans, sans-serif;
+}
+
+h1 {
+  background-color: #fff381;
+  color: black;
+  margin: 10px;
+  text-align: center;
+}
+
+#enterNameInput{
+  text-align: center;
+}
+
+#inputAndButtons,
+#checkInLuggage {
+  text-align-last: center;
+  padding: 10px;
+}
+
+.bt {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn-button {
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  letter-spacing: 1px;
+  line-height: 25px;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-button:hover {
+  color: #fff;
+  background: rgba(128, 128, 128, 0.473);
+}
+
+
+li {
+  text-align: center;
+  list-style-position: inside;
+}
+
+li:first-child {
+  animation: fadeIn 2s;
+  animation: fadeOut 2s;
+ 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 2;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
